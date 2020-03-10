@@ -18,7 +18,7 @@
 }
 #ball
 {
-    background-color:rgba(20,200,200,0.45);
+    background-color:red;
     position:absolute;
     width:15px;
     height:15px;
