@@ -19,22 +19,22 @@ body {
   }
   
   h3 {
+    margin: 100px 0 20px;
     margin-bottom: 25px;
     font-size: 2.3rem;
-    text-align: left;
   }
   
   h4 {
     font-size: 2rem;
   }
   
-  h3:after {
+/*  h3:after {
     content: '';
     display: block;
     width: 10%;
     padding-top: 5px;
     border-bottom: 3px solid whitesmoke;
-  }
+  } */
   
   h1 + h4 {
     font-weight: normal;
@@ -166,12 +166,40 @@ body {
   
 
   .column {
-    width:800px;
+    width:auto;
     margin: 0px auto;
-    padding: 1px 40px 40px 40px;
-    border-left: solid 25px #ff8a8a;
-    border-right: solid 25px #ff8a8a;
+    /*padding: 1px 40px 40px 40px; */
+   /* border-left: solid 25px #ff8a8a;
+    border-right: solid 25px #ff8a8a; */
   }
+
+  .backgroundColumn1 {
+      width: auto;;
+      background-color:#0000008a;
+      padding-top: 20px;
+      padding-bottom: 40px;
+
+  }
+
+  .backgroundColumn2 {
+    width: auto;;
+    background-color:#36678a80;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+  .textInColumn {
+      width: 800px;
+      margin: 0px auto;
+      color: white;
+      opacity: 1.0;
+  }
+
+  p {
+      color: white; opacity: 1.0;
+  }
+
+
 
   .about {
     background: url("https://unsplash.it/1080/720/?image=349") no-repeat fixed center / cover;
@@ -350,9 +378,13 @@ body {
     h1 {
       font-size: 3.5rem;
     }
+
+    h2 {
+        font-size: 2.0rem;
+      }
   
     h3 {
-      font-size: 2.8rem;
+      font-size: 1.8rem;
     }
   
     h4 {
