@@ -6,7 +6,7 @@ body {
     background-image: url(table_tennis_1.jpg);
     font-family: 'Lucida Sans Unicode', 'Arial', serif;
     color: white;
-    background-size: cover;
+    background-size: auto;
   }
   
   h1, h3, h4, header .btn {
