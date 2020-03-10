@@ -24,8 +24,8 @@ function initMovement()
     
     ballInterval = setInterval(function()
     {
-        ballLeft +=  ((Math.cos(angle)*speed)/100);
-        ballTop -= ((Math.sin(angle)*speed)/100);
+        ballLeft +=  ((Math.cos(angle)*speed)/30);
+        ballTop -= ((Math.sin(angle)*speed)/30);
         document.getElementById("ball").style.left = ballLeft+"px";
         document.getElementById("ball").style.top = ballTop+"px";
         var playerTop = parseInt(window.getComputedStyle(document.getElementById('player')).getPropertyValue('top'),10);
