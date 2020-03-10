@@ -329,14 +329,15 @@ body {
     }
   
     a {
-      box-shadow: 0 8px red;
+      box-shadow: 0 8px #553c76;
+      border-radius: 5px;
+
     }
   
     nav a {
       padding: 7px;
-      border-right: 1px solid red;
+      border-right: 1px solid #553c76;
       width: 80px;
-      align-items: center;
     }
   
     nav li:nth-child(2n+1) a:after {
