@@ -358,7 +358,14 @@ body {
           -ms-transform: translateY(4px);
               transform: translateY(4px);
     }
-  
+
+  #litenknapp{
+  box-shadow: none;
+  border: none;
+  background: none;
+  color: white;
+  }
+
     .about .one-third {
       margin-top: 0;
     }
